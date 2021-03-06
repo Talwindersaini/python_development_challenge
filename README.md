@@ -3,13 +3,13 @@
 Resulta Development challenge
 
 Steps to execute this project
-  #clone the project
-  #Go to the project file
-  #Building the Docker Container
+  1. clone the project
+  2. Go to the project file
+  3. Building the Docker Container
       docker build -t python_development_challenge .
-  #Verify the Image Build
+  4. Verify the Image Build
       docker images
-  #Running the Docker Container
+  5. Running the Docker Container
       docker run -it python_development_challenge
       
 Notes: -
