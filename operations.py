@@ -20,7 +20,7 @@ def accept_input(string):
             date = input("Enter {} (YYYY-MM-DD): ".format(string))
             formatted_date = dt.datetime.strptime(date, date_format)
         except ValueError:
-            print('Enter date in format YYYY-MM-DD')
+            print('Enter the valid date in format YYYY-MM-DD')
             continue
         else:
             return date, formatted_date
